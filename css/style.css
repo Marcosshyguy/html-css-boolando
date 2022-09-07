@@ -65,16 +65,40 @@ nav img{
 }
 
 .photo{
+    color: white;
+    font-weight: bold;
+
     position: relative;
+
 }
 
-.discount{
+#discount{
     background-color: red;
     padding: 0 .5em;
 
     position: absolute;
     bottom:10%;
-    left:10%;
+    left:0;
+}
+
+#sustainability{
+    background-color: green;
+    padding: 0 .5em;
+
+    position: absolute;
+    bottom:10%;
+    left: 15%;
+}
+
+#heart{
+    background-color: white;
+    color: black;
+    font-size:1.2rem;
+    padding: 1em;
+    
+    position: absolute;
+    right: 0;
+    top: 3%;
 }
 
 .description{
