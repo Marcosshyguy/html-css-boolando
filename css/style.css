@@ -55,8 +55,6 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* debug */
-
 }
 
 nav img{
@@ -125,3 +123,17 @@ nav img{
     top: 3%;
 }
 
+
+/* footer */
+
+footer{
+    background-color: black;
+    color:white;
+    padding: 2em;
+}
+
+.footer-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
