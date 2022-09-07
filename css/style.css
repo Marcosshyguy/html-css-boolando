@@ -82,8 +82,19 @@ nav img{
 .photo-container{
     color: white;
     font-weight: bold;
-
+    
     position: relative;
+}
+
+.front-image{
+    position: absolute;
+
+    top:0;
+    left: 0;
+}
+
+.front-image:hover{
+    display: none;
 }
 
 #discount{
