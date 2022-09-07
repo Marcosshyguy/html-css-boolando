@@ -9,6 +9,10 @@ body{
 }
 
 /* common */
+.container{
+    width:60%;
+    margin: 0 auto;
+}
 
 img{
     max-width: 100%;
@@ -45,5 +49,27 @@ nav img{
 }
 
 
+/* main */
+
+.flex-grid{
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    /* debug */
+    height: 600px;
+    border: 2px solid black;
+}
 
 
+.chart{
+    /* debug */
+    width:calc(100% / 3);
+    background-color: aqua;
+    height: 300px;
+}
+
+.description{
+    /* debug */
+    height: 60px;
+    border: 1px solid black;
+}
