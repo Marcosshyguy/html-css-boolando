@@ -67,6 +67,7 @@ nav img{
 /* main */
 
 .flex-grid{
+    margin-top: 2em;
     display: flex;
     gap: 1em;
     flex-wrap: wrap;
@@ -91,7 +92,7 @@ nav img{
     left: 0;
 }
 
-.front-image:hover{
+.photo-container:hover .front-image{
     display: none;
 }
 
