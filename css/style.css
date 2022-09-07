@@ -70,8 +70,6 @@ nav img{
     display: flex;
     gap: 1em;
     flex-wrap: wrap;
-    /* debug */
-    border: 2px solid black;
 }
 
 
