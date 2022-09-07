@@ -26,6 +26,21 @@ a{
 a,i{
     margin-right: 1em;
 }
+.mgb{
+    margin-bottom: 1em;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.red{
+    color: red;
+}
+
+.line-tr{
+    text-decoration: line-through;
+}
 
 /* typoghapy */
 
@@ -64,12 +79,11 @@ nav img{
     width:calc(100% / 3 - 1em);
 }
 
-.photo{
+.photo-container{
     color: white;
     font-weight: bold;
 
     position: relative;
-
 }
 
 #discount{
@@ -101,8 +115,3 @@ nav img{
     top: 3%;
 }
 
-.description{
-    /* debug */
-    height: 60px;
-    border: 1px solid black;
-}
