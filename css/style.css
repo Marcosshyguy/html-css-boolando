@@ -42,6 +42,14 @@ a,i{
     color: red;
 }
 
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: green;
+}
+
 .line-tr{
     text-decoration: line-through;
 }
@@ -111,38 +119,29 @@ main{
     display: none;
 }
 
-#discount{
-    background-color: red;
-    padding: 0 .5em;
 
-    position: absolute;
+.banner{
+    position:absolute;
     bottom:10%;
     left:0;
-}
-
-.sustainability{
-    background-color: green;
-    padding: 0 .5em;
-
-    position: absolute;
-    bottom:10%;
-    left: 15%;
-}
-
-.sustain2{
-    position: absolute;
-    left: 0;
 }
 
 #heart{
     background-color: white;
     color: black;
-    font-size:1.2rem;
-    padding: 1em;
+    font-size:1.5rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    vertical-align: middle;
     
     position: absolute;
     right: 0;
     top: 3%;
+}
+
+#heart:hover{
+    color:red;
 }
 
 /* footer */
