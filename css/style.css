@@ -12,6 +12,7 @@ body{
 /* common */
 .container{
     width:60%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -50,9 +51,13 @@ a,i{
 
 header{
     width: 100%;
-    position: relative;
-    right: 0;
+
+    position: fixed;
+    left: 0;
     top:0;
+    z-index: 3;
+
+
 }
 
 .header-container{
@@ -72,6 +77,9 @@ header{
 
 
 /* main */
+main{
+    margin: 10em 0 2em 0;
+}
 
 .flex-grid{
     margin-top: 2em;
