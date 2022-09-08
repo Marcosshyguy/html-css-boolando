@@ -5,6 +5,7 @@
 }
 
 body{
+    font-family:sans-serif;
     font-size: 100%;
 }
 
@@ -26,6 +27,8 @@ a{
 a,i{
     margin-right: 1em;
 }
+
+
 .mgb{
     margin-bottom: 1em;
 }
@@ -42,11 +45,17 @@ a,i{
     text-decoration: line-through;
 }
 
-/* typoghapy */
 
 /* header */
 
-nav{
+header{
+    width: 100%;
+    position: relative;
+    right: 0;
+    top:0;
+}
+
+.header-container{
     color: white;
     background-color: #FF6900;
     padding: 2em 0;
@@ -57,7 +66,7 @@ nav{
     align-items: center;
 }
 
-nav img{
+.header-container div img{
     width: 30%;
 }
 
@@ -103,13 +112,18 @@ nav img{
     left:0;
 }
 
-#sustainability{
+.sustainability{
     background-color: green;
     padding: 0 .5em;
 
     position: absolute;
     bottom:10%;
     left: 15%;
+}
+
+.sustain2{
+    position: absolute;
+    left: 0;
 }
 
 #heart{
@@ -122,7 +136,6 @@ nav img{
     right: 0;
     top: 3%;
 }
-
 
 /* footer */
 
